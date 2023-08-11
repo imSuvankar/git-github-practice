@@ -1,2 +1,3 @@
 modifying file after first commit
 trying git diff 
+attempting direct commit
