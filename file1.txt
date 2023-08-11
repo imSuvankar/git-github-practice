@@ -1,2 +1,2 @@
 modifying file after first commit
-trying git diff
+trying git diff 
