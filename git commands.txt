@@ -1,0 +1,54 @@
+`git` -> check if git is present or not
+`git --version` -> to check git version
+`git config --global user.name "<userName>"` -> assign user name
+`git config --global user.email "<userEmail>"` -> assign user email
+`git config --list` -> check git info
+`git config --global core.editor <editorName>` -> assign a new editor style
+`git config user.name` -> check git user name
+`git config user.email` -> check git user email
+
+`git status` -> check current directory status with git
+`git init` -> assign the current directory as a git repository if not assigned already
+`git add --a` -> add all files/folders of the current directory in git staging area
+`git commit -m "<commitMessage>"` -> commit staged files/folders with a commit message
+`git log` -> to get commit log/history with details
+`git add <fileName.extension>` -> to add only fileName.extension in git staging area
+`rm -rf .git` -> to delete .git folder of the current directory/making it a non-git repository
+
+`git clone <https://repoURL> <newFolderName(optional)>` -> to download/clone remote repos from GitHub like websites
+
+`touch .gitignore` -> creates gitIgnore file which keeps names of files that we do not want to be tracked or committed
+`echo "<fileName.exe> or <folderName>" >> .gitignore` -> to ignore and add all occurences of !toBeTracked file/folder in gitIgnore file
+`echo "*.log" >> .gitignore` -> to ignore and add all occurences of files with .log extension in gitIgnore file
+`cat .gitignore` -> to read gitIgnore file to see the contents(= files/folders that we marked ingone or !notToBeTracked)
+
+`git diff` -> to compare staging area with current working directory
+`git diff --staged` -> to compare staging area with last commit 
+
+`git commit -a -m "<commit message>"` -> to commit tracked files (!untrackedFiles) directly without staging area
+
+`git rm <fileName.txt/folderName>` -> removes a file/folder and automatically stages
+`git mv <fileName.txt/folderName> <newFile/folderName>` -> renames a file/folder and automatically stages
+`git rm --cached <fileName.txt/folderName>` -> after adding to gitIgnore, without deleting just untracks a file/folder that was tracked previously
+
+`git log -p` -> shows all log history details with changes
+`git log -p -<ommitsYouWantToSee:integer>` -> shows given number of commit history
+`git log --stat` -> shows log briefly as a summary
+`git log --pretty=oneline` -> shows all the git commits (number + message) each in one line
+`git log --pretty=short` -> shows all the git commits (number + message + author) summary
+`git log --pretty=full` -> shows all the git commits (number + message + author + commit) summary
+`git log --since=2.years/months/.../seconds` -> shows commits from that time till now
+`git log --pretty=format:"<%h -- %an>"` -> shows git log the way you want to see (here h:SSHcode & an:authorName), view git-scm website for more formatting
+`git commit --amend` -> to add/merge current commit with the previous commit
+
+`git checkout -- <fileName.txt/folderName>` -> to restore/undo any modified file/folder to it's previous version/commit
+`git restore <fileName.txt/folderName>` -> to restore/undo any modified file/folder to it's previous version/commit
+`git restore --staged <fileName.txt/folderName>` -> to unstage any file/folder
+`git checkout -f` -> restore all modified but unstaged files to its previous version/commit
+
+`git remote` -> to get remote URL lists
+`git remote -v` -> to get list of all remote pull/push URLs
+`git push -u origin master` -> used to set the upstream branch
+`git push -f origin master` -> used for force pushing and should be used carefully due to the risk of data loss
+
+`git config --global alias.<aliasName/st> <commandToBeChanged/status>` -> setting alias of "status" command to "st"
