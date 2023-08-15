@@ -55,4 +55,4 @@
 
 `git checkout -b <newBranchName>` -> to create a new branch
 `git checkout <branchName>` -> to switch/go to another branch
-`git checkout branch` -> to get list of branches
+`git branch` -> to get list of branches
