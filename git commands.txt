@@ -52,3 +52,7 @@
 `git push -f origin master` -> used for force pushing and should be used carefully due to the risk of data loss
 
 `git config --global alias.<aliasName/st> <commandToBeChanged/status>` -> setting alias of "status" command to "st"
+
+`git checkout -b <newBranchName>` -> to create a new branch
+`git checkout <branchName>` -> to switch/go to another branch
+`git checkout branch` -> to get list of branches
