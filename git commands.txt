@@ -53,6 +53,4 @@
 
 `git config --global alias.<aliasName/st> <commandToBeChanged/status>` -> setting alias of "status" command to "st"
 
-`git checkout -b <newBranchName>` -> to create a new branch
-`git checkout <branchName>` -> to switch/go to another branch
-`git branch` -> to get list of branches
+`git merge <branchName>` -> to merge that branch into current branch (master or any other)
