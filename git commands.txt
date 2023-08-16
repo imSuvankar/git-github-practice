@@ -52,3 +52,5 @@
 `git push -f origin master` -> used for force pushing and should be used carefully due to the risk of data loss
 
 `git config --global alias.<aliasName/st> <commandToBeChanged/status>` -> setting alias of "status" command to "st"
+
+`git merge <branchName>` -> to merge that branch into current branch (master or any other)
