@@ -13,7 +13,7 @@
 `git commit -m "<commitMessage>"` -> commit staged files/folders with a commit message
 `git log` -> to get commit log/history with details
 `git add <fileName.extension>` -> to add only fileName.extension in git staging area
-`rm -rf .git` -> to delete .git folder of the current directory/making it a non-git repository
+`rm -rf .git` -> to delete .git folder of the current directory/making it a non-git repository [dangerous]
 
 `git clone <https://repoURL> <newFolderName(optional)>` -> to download/clone remote repos from GitHub like websites
 
@@ -53,12 +53,15 @@
 
 `git config --global alias.<aliasName/st> <commandToBeChanged/status>` -> setting alias of "status" command to "st"
 
+`git branch <branchName> -> creates a new branch
 `git merge <branchName>` -> to merge that branch into current branch (master or any other)
 
 `git branch -v` -> gets last commit information 
 `git branch --merged` -> gets list of all merged branches
 `git branch --no-merged` -> gets list of all !merged branches
 `git branch -d <branchName>` -> deletes a branch if it is already merged, else gives error/warning
+`git branch -D <branchName>` -> delets a branch no matter merged or not [dangerous]
+
 
 
 
