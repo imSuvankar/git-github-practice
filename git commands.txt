@@ -64,7 +64,7 @@
 
 `git push origin <branchName>` -> pushing branch into remote repository
 `git push origin <branchName>:<remoteBranchName>` -> pushing branch into remote repository as some other/new name
-
+`git push -d origin <branchName>` -> to delete branch from remote repository
 
 
 
