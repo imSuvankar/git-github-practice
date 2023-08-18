@@ -1,0 +1,2 @@
+trying merge conflict [branch: mergeConflict]
+trying merge conflict [branch: master]
