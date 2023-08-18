@@ -62,7 +62,8 @@
 `git branch -d <branchName>` -> deletes a branch if it is already merged, else gives error/warning
 `git branch -D <branchName>` -> delets a branch no matter merged or not [dangerous]
 
-
+`git push origin <branchName>` -> pushing branch into remote repository
+`git push origin <branchName>:<remoteBranchName>` -> pushing branch into remote repository as some other/new name
 
 
 
