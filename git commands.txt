@@ -54,3 +54,32 @@
 `git config --global alias.<aliasName/st> <commandToBeChanged/status>` -> setting alias of "status" command to "st"
 
 `git merge <branchName>` -> to merge that branch into current branch (master or any other)
+
+`git branch -v` -> gets last commit information 
+`git branch --merged` -> gets list of all merged branches
+`git branch --no-merged` -> gets list of all !merged branches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
