@@ -58,6 +58,7 @@
 `git branch -v` -> gets last commit information 
 `git branch --merged` -> gets list of all merged branches
 `git branch --no-merged` -> gets list of all !merged branches
+`git branch -d <branchName>` -> deletes a branch if it is already merged, else gives error/warning
 
 
 
